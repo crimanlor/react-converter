@@ -1,0 +1,44 @@
+.Converter {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 2rem auto; 
+  }
+  
+  .Converter label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.2rem; 
+    font-weight: bold;
+    color: #333;  
+  }
+  
+  .Converter input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .Converter input:focus {
+    border-color: #ff6347;
+    outline: none;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      background-color: #242424;
+      color: rgba(255, 255, 255, 0.87);
+    }
+    
+    .Converter input {
+      background-color: #fff; 
+      color: #242424; 
+    }
+  }

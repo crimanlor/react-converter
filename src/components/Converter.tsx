@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import '../styles/Converter.css'
 
 function Converter(){
     // Definición de estados

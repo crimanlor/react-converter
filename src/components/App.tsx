@@ -1,4 +1,4 @@
-import './App.css'
+import '../styles/App.css'
 import Home from './Home';
 import Footer from './Footer';
 import Converter from './Converter';
