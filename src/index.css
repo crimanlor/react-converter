@@ -68,6 +68,20 @@ button:focus-visible {
   }
 }
 
+/* Estilos para el modo oscuro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: #242424;
+    color: rgba(255, 255, 255, 0.87);
+  }
+  
+  /* Cambiar el fondo de los inputs en el modo oscuro */
+  .Converter input {
+    background-color: #fff; /* Fondo oscuro en el modo oscuro */
+    color: #242424; /* Color de texto blanco */
+  }
+}
+
 .intro {
   text-align: center;
   margin-bottom: 3rem;
