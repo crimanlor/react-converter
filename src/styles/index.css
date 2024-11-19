@@ -34,14 +34,14 @@ h1 {
 
 .intro h1 {
   padding-top: 20px;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   max-width: 400px;
   color: #333;
   margin-bottom: 1rem;
 }
 
 .intro p {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   color: #666;
   max-width: 400px;
   margin: 0 auto;
