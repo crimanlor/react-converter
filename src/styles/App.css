@@ -62,3 +62,8 @@
 .App nav a:hover {
   color: #ff6347; 
 }
+
+.Image-div {
+  display: flex;
+  justify-content: center;
+}
